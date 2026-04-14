@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             notif.classList.add('show');
 
-            contactForm.reset(); // 🔥 TARO DI SINI
+            contactForm.reset(); 
 
             setTimeout(() => {
                 notif.classList.remove('show');
