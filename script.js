@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // Navigasi
     const navLinks = document.querySelectorAll('.menu a');
-    const currentPath = window.location.pathname.split("/").pop() || "home.html";
+    const currentPath = window.location.pathname.split("/").pop() || "index.html";
 
     navLinks.forEach(link => {
         if (link.getAttribute('href') === currentPath) {
