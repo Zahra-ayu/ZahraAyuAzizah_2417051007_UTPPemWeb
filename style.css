@@ -148,7 +148,7 @@ span {
   font-size: larger;
   z-index: 2;
   top: 80%;
-  left: 25%;
+  left: 20%;
   transform: translate(-50%, -50%);
   color: white;
 }
