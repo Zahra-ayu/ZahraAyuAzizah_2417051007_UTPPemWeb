@@ -40,6 +40,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
             notif.classList.add('show');
 
+            contactForm.reset(); // 🔥 TARO DI SINI
+
             setTimeout(() => {
                 notif.classList.remove('show');
                 sendBtn.innerText = 'SEND MESSAGE';
